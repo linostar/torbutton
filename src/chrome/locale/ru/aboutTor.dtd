@@ -1,0 +1,49 @@
+<!--
+   - Copyright (c) 2014, The Tor Project, Inc.
+   - See LICENSE for licensing information.
+   - vim: set sw=2 sts=2 ts=8 et syntax=xml:
+  -->
+
+<!ENTITY aboutTor.title "О проекте Tor">
+
+<!ENTITY aboutTor.outOfDateTorOn.label "ТЕМ НЕ МЕНЕЕ, данный браузер устарел.">
+<!ENTITY aboutTor.outOfDateTorOff.label "КРОМЕ ТОГО, данный браузер устарел.">
+<!ENTITY aboutTor.outOfDate2.label "Кликните по изображению лука и выбирите Загрузить обновление пакета Tor для браузера.">
+
+<!ENTITY aboutTor.check.label "Проверка интернет-настроек Tor">
+
+<!ENTITY aboutTor.success.label "Поздравления!">
+<!ENTITY aboutTor.success2.label "Данный браузер настроен для использования Tor.">
+<!ENTITY aboutTor.success3.label "Теперь Вы можете посещать интернет-сайты в анонимном режиме.">
+<!ENTITY aboutTor.failure.label "Что-то пошло не так!">
+<!ENTITY aboutTor.failure2.label "Tor не работает в этом браузере.">
+<!ENTITY aboutTor.failure3prefix.label "Чтобы получить помощь, обращайтесь:">
+<!ENTITY aboutTor.failure3Link "help@rt.torproject.org">
+<!ENTITY aboutTor.failure3suffix.label ".">
+
+<!ENTITY aboutTor.search.label "Поиск">
+
+<!ENTITY aboutTor.searchSPPost.link "https://startpage.com/rth/search">
+<!ENTITY aboutTor.searchDDGPost.link "https://duckduckgo.com/html/">
+
+<!ENTITY aboutTor.torInfo1.label "Дополнительные сведения:">
+<!ENTITY aboutTor.torInfo2.label "Страна &amp; IP-адрес">
+<!ENTITY aboutTor.torInfo3.label "Конечный узел">
+<!ENTITY aboutTor.torInfo4.label "Данный сервер не ведет регистр с какой-либо информацией по посетителям.">
+<!ENTITY aboutTor.whatnextQuestion.label "Что далее?">
+<!ENTITY aboutTor.whatnextAnswer.label "Tor НЕ является исчерпывающим средством для анонимного использования сети! Возможно, Вам придется изменить свои некоторые привычки интернет-серфинга, чтобы обезопасить свои личные данные.">
+<!ENTITY aboutTor.whatnext.label "Рекомендации о том, как сохранить анонимность »">
+<!ENTITY aboutTor.whatnext.link "https://www.torproject.org/download/download.html.en#warning">
+<!ENTITY aboutTor.helpInfo1.label "Вы можете помочь!">
+<!ENTITY aboutTor.helpInfo2.label "Есть много способов сделать Сеть Tor более быстродейственной и устойчивой:">
+<!ENTITY aboutTor.helpInfo3.label "Запустите релейный узел Tor »">
+<!ENTITY aboutTor.helpInfo3.link "https://www.torproject.org/docs/tor-doc-relay.html#ru">
+<!ENTITY aboutTor.helpInfo4.label "Оказывайте добровольную помощь »">
+<!ENTITY aboutTor.helpInfo4.link "https://www.torproject.org/getinvolved/volunteer.html#ru">
+<!ENTITY aboutTor.helpInfo5.label "Сделайте взнос »">
+<!ENTITY aboutTor.helpInfo5.link "https://www.torproject.org/donate/donate.html#ru">
+
+<!ENTITY aboutTor.footer.label "Проект Tor - это некоммерческая организация типа US 501(c)(3), предназначенная для исследования, развития и образования в области сохранения анонимности и личных данных.">
+<!ENTITY aboutTor.learnMore.label "Узнайте больше о Проекте Tor »">
+<!ENTITY aboutTor.learnMore.link "https://www.torproject.org/about/overview.html#ru
+">

@@ -1,0 +1,48 @@
+<!--
+   - Copyright (c) 2014, The Tor Project, Inc.
+   - See LICENSE for licensing information.
+   - vim: set sw=2 sts=2 ts=8 et syntax=xml:
+  -->
+
+<!ENTITY aboutTor.title "Sobre o Tor">
+
+<!ENTITY aboutTor.outOfDateTorOn.label "CONTUDO, este navegador está desatualizado.">
+<!ENTITY aboutTor.outOfDateTorOff.label "TAMBÉM, este navegador está desatualizado.">
+<!ENTITY aboutTor.outOfDate2.label "Clique no símbolo da cebola e escolha Download Tor Browser Bundle Update.">
+
+<!ENTITY aboutTor.check.label "Testar as Definições da Rede Tor">
+
+<!ENTITY aboutTor.success.label "Parabéns!">
+<!ENTITY aboutTor.success2.label "Este navegador está configurado para utilizar o Tor.">
+<!ENTITY aboutTor.success3.label "Agora já pode navegar a Internet de forma anónima.">
+<!ENTITY aboutTor.failure.label "Algo Correu Mal!">
+<!ENTITY aboutTor.failure2.label "O Tor não está  a funcionar neste navegador.">
+<!ENTITY aboutTor.failure3prefix.label "Para assistência, por favor contacte">
+<!ENTITY aboutTor.failure3Link "help@rt.torproject.org">
+<!ENTITY aboutTor.failure3suffix.label ".">
+
+<!ENTITY aboutTor.search.label "Pesquisar">
+
+<!ENTITY aboutTor.searchSPPost.link "https://startpage.com/rth/search">
+<!ENTITY aboutTor.searchDDGPost.link "https://duckduckgo.com/html/">
+
+<!ENTITY aboutTor.torInfo1.label "Informação adicional:">
+<!ENTITY aboutTor.torInfo2.label "País e endereço IP:">
+<!ENTITY aboutTor.torInfo3.label "Nó de saída:">
+<!ENTITY aboutTor.torInfo4.label "Este servidor não guarda informação dos visitantes.">
+<!ENTITY aboutTor.whatnextQuestion.label "O que se segue?">
+<!ENTITY aboutTor.whatnextAnswer.label "O Tor NÃO é tudo o que precisa para navegar anonimamente na internet! Poderá ter que mudar alguns dos seus hábitos de navegação para ter a certeza que a sua identidade está segura.">
+<!ENTITY aboutTor.whatnext.label "Dicas sobre como se tornar anónimo »">
+<!ENTITY aboutTor.whatnext.link "https://www.torproject.org/download/download.html.en#warning">
+<!ENTITY aboutTor.helpInfo1.label "Você pode ajudar!">
+<!ENTITY aboutTor.helpInfo2.label "Há muitas maneiras para ajudar a rede Tor tornar-se mais rápida e forte:">
+<!ENTITY aboutTor.helpInfo3.label "Criar um Nó de Relay Tor »">
+<!ENTITY aboutTor.helpInfo3.link "https://www.torproject.org/docs/tor-doc-relay.html.en">
+<!ENTITY aboutTor.helpInfo4.label "Voluntarie os seus serviços »">
+<!ENTITY aboutTor.helpInfo4.link "https://www.torproject.org/getinvolved/volunteer.html.en">
+<!ENTITY aboutTor.helpInfo5.label "Faça um donativo »">
+<!ENTITY aboutTor.helpInfo5.link "https://www.torproject.org/donate/donate.html.en">
+
+<!ENTITY aboutTor.footer.label "O Projeto Tor é uma organização sem fins lucrativos US 501(c)(3) dedicada à investigação, desenvolvimento e promoção de anonimidade e privacidade online.">
+<!ENTITY aboutTor.learnMore.label "Saiba mais sobre o Projeto Tor »">
+<!ENTITY aboutTor.learnMore.link "https://www.torproject.org/about/overview.html.en">
