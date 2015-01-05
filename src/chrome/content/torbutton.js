@@ -1436,6 +1436,7 @@ function torbutton_set_timezone(mode, startup) {
         // FIXME: Tears.. This will not update during daylight switch for linux+mac users
         // Windows users will be fine though, because tz_string should be empty for them
         environ.set("TZ", m_tb_prefs.getCharPref("extensions.torbutton.tz_string"));
+
     }
 }
 
@@ -2382,6 +2383,23 @@ function torbutton_close_on_toggle(mode, newnym) {
 // New Identity where it is not supported (ie no control port).
 function torbutton_check_protections()
 {
+  var env = Cc["@mozilla.org/process/environment;1"]
+              .getService(Ci.nsIEnvironment);
+              
+  // check for the existence of an environment variable in order to toggle the visibility of networksettings menuitem
+  if (env.exists("TOR_NO_DISPLAY_NETWORK_SETTINGS")) {
+    // the environment variable should also be set to "1", and any other value will stop its effect
+    if (env.get("TOR_NO_DISPLAY_NETWORK_SETTINGS") == "1") {
+      document.getElementById("torbutton-networksettings").hidden = true;
+    }
+    else {
+      document.getElementById("torbutton-networksettings").hidden = false;
+    }
+  }
+  else {
+    document.getElementById("torbutton-networksettings").hidden = false;
+  }
+  
   var cookie_pref = m_tb_prefs.getBoolPref("extensions.torbutton.cookie_protections");
   document.getElementById("torbutton-cookie-protector").disabled = !cookie_pref;
 
