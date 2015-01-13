@@ -1875,8 +1875,12 @@ function torbutton_do_tor_check()
 
   // If we have a tor control port and transparent torification is off,
   // perform a check via the control port.
+  const kEnvSkipControlPortTest = "TOR_SKIP_CONTROLPORTTEST";
+  var env = Cc["@mozilla.org/process/environment;1"]
+                 .getService(Ci.nsIEnvironment);
   if (m_tb_control_port &&
       !m_tb_prefs.getBoolPref("extensions.torbutton.saved.transparentTor") &&
+      !env.exists(kEnvSkipControlPortTest) &&
       m_tb_prefs.getBoolPref("extensions.torbutton.local_tor_check")) {
     if (torbutton_local_tor_check())
       checkSvc.statusOfTorCheck = checkSvc.kCheckSuccessful;
@@ -2382,6 +2386,16 @@ function torbutton_close_on_toggle(mode, newnym) {
 // New Identity where it is not supported (ie no control port).
 function torbutton_check_protections()
 {
+  var env = Cc["@mozilla.org/process/environment;1"]
+              .getService(Ci.nsIEnvironment);
+
+  // Bug 14100: check for the existence of an environment variable
+  // in order to toggle the visibility of networksettings menuitem
+  if (env.exists("TOR_NO_DISPLAY_NETWORK_SETTINGS"))
+    document.getElementById("torbutton-networksettings").hidden = true;
+  else
+    document.getElementById("torbutton-networksettings").hidden = false;
+
   var cookie_pref = m_tb_prefs.getBoolPref("extensions.torbutton.cookie_protections");
   document.getElementById("torbutton-cookie-protector").disabled = !cookie_pref;
 
